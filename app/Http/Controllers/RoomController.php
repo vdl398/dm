@@ -22,7 +22,7 @@ class RoomController extends Controller
         $roomResult = Room::create([
             'title' => $param['title'],
 			'status' => 'N',
-			'mode' => $param['mode'],
+			'mode' => $param['mode'], // режим больше или меньше 5 участников, если более 5 участноков то используется медиа сервер, если меньше то прямое соединене между участниками
         ]);
 		if (!(int)$roomResult->id) {
 			return $resource->sendError(['room create error']);
