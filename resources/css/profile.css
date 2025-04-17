@@ -1,0 +1,20 @@
+.profile {
+	padding: 40px;
+}
+.profile ._container {
+	display: flex; 
+	margin-top: 40px;
+}
+.profile img {
+	width: 200px;
+	height: fit-content;
+}
+.profile .btn_wr {
+	width: 100%; 
+	display: flex; 
+	justify-content: center; 
+	margin-top: 40px;
+}
+.profile ._photo {
+	color: #000 !important;
+}

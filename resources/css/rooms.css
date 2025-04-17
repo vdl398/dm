@@ -1,0 +1,47 @@
+.rooms {
+	height: 100%;
+	padding: 40px;
+}
+.rooms .list {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+.rooms .list .room_item {
+	position: relative;
+	border: 3px solid #008080;
+	margin-left: 15px;
+	margin-top: 15px;
+	background: #008080;
+}
+.rooms .list .room_item .preview {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFF;
+}
+.rooms .list .room_item .preview img {
+	width: 60px;
+}
+.rooms .list .room_item .title {
+	color: #FFF;
+	padding: 10px;
+}
+.rooms .list .room_item .start_btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.rooms .list .room_item .del_btn {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: #FF0000;
+	color: #FFF;
+	border-radius: 8px;
+	font-size: 12px;
+    padding: 0px 8px 0px;
+}
