@@ -2,7 +2,7 @@ import axios from 'axios'
 
 class RequestAjax {
 
-    APP_DOMAIN = '';
+    APP_DOMAIN = 'dmtest.ru';
 
 	post(action, data=null, param={}) {
         return new Promise((resolve, reject)=> {
